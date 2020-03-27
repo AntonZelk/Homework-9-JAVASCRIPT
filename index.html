@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <div class="nameBank">Банк</div>
+            <div>
+                <div class ="name">USD</div>
+                    <span class="buy">Покупка</span>
+                    <span class="sale">Продажа</span>
+            </div>
+            <div>
+                <div class ="name">EUR</div>
+                    <span class="buy">Покупка</span>
+                    <span class="sale">Продажа</span>
+            </div>
+            <div>
+                <div class ="nameRUB">RUB<span class="rub">100</span></div>
+                    <span class="buy">Покупка</span>
+                    <span class="sale">Продажа</span>
+            </div>
+            <div>
+                <div class ="name">EUR-USD</div>
+                    <span class="buy">Покупка</span>
+                    <span class="sale">Продажа</span>
+            </div>
+        </header>
+        <div class="table">
+            <div class="row1">
+                <div class="bankName MTB">МТБанк</div>
+                <div class="td" id="buyUSDmtb">1</div>
+                <div class="td" id="saleUSDmtb">2</div>
+                <div class="td" id="buyEURmtb">3</div>
+                <div class="td" id="saleEURmtb">4</div>
+                <div class="td" id="buyRUBmtb">5</div>
+                <div class="td" id="saleRUBmtb">6</div>
+                <div class="td" id="relationship1MTB">7</div>
+                <div class="td" id="relationship2MTB">8</div>
+            </div>
+            <div class="row2">
+                <div class="bankName BEL">Беларусбанк</div>
+                <div class="td" id="buyUSDbel">1</div>
+                <div class="td" id="saleUSDbel">2</div>
+                <div class="td" id="buyEURbel">3</div>
+                <div class="td" id="saleEURbel">4</div>
+                <div class="td" id="buyRUBbel">5</div>
+                <div class="td" id="saleRUBbel">6</div>
+                <div class="td" id="relationship1BEL">7</div>
+                <div class="td" id="relationship2BEL">8</div>
+            </div>
+            <div class="row3">
+                <div class="bankName BELIN">Белинвестбанк</div>
+                <div class="td" id="buyUSDin">1</div>
+                <div class="td" id="saleUSDin">2</div>
+                <div class="td" id="buyEURin">3</div>
+                <div class="td" id="saleEURin">4</div>
+                <div class="td" id="buyRUBin">5</div>
+                <div class="td" id="saleRUBin">6</div>
+                <div class="td" id="relationship1IN">7</div>
+                <div class="td" id="relationship2IN">8</div>
+            </div>
+            <div class="row4">
+                <div class="bankName ALFA">Альфа-Банк</div>
+                <div class="td" id="buyUSDalf">1</div>
+                <div class="td" id="saleUSDalf">2</div>
+                <div class="td" id="buyEURalf">3</div>
+                <div class="td" id="saleEURalf">4</div>
+                <div class="td" id="buyRUBalf">5</div>
+                <div class="td" id="saleRUBalf">6</div>
+                <div class="td" id="relationship1ALF">7</div>
+                <div class="td" id="relationship2ALF">8</div>
+            </div>
+            <div class="row5">
+                <div class="bankName ABS">Абсолютбанк</div>
+                <div class="td" id="buyUSDabs">1</div>
+                <div class="td" id="saleUSDabs">2</div>
+                <div class="td" id="buyEURabs">3</div>
+                <div class="td" id="saleEURabs">4</div>
+                <div class="td" id="buyRUBabs">5</div>
+                <div class="td" id="saleRUBabs">6</div>
+                <div class="td" id="relationship1ABS">7</div>
+                <div class="td" id="relationship2ABS">8</div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <select id="convert">
+            <option id="convertUSD">USD</option>
+            <option id="convertEUR">EUR</option>
+            <option id="convertRUB">RUB</option>
+        </select>
+        <input id="addCash" type="text" placeholder="Введите BYN" maxlength="21">
+        <input id="result" type="text" readonly>
+        <input id="convertBtn" type="button" value="Перевод">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
